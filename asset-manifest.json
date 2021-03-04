@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/parrot-budgie/static/css/main.33f34e68.chunk.css",
-    "main.js": "/parrot-budgie/static/js/main.601be437.chunk.js",
-    "main.js.map": "/parrot-budgie/static/js/main.601be437.chunk.js.map",
+    "main.js": "/parrot-budgie/static/js/main.fb983d7d.chunk.js",
+    "main.js.map": "/parrot-budgie/static/js/main.fb983d7d.chunk.js.map",
     "runtime-main.js": "/parrot-budgie/static/js/runtime-main.32bd50b1.js",
     "runtime-main.js.map": "/parrot-budgie/static/js/runtime-main.32bd50b1.js.map",
     "static/js/2.6aee072e.chunk.js": "/parrot-budgie/static/js/2.6aee072e.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.32bd50b1.js",
     "static/js/2.6aee072e.chunk.js",
     "static/css/main.33f34e68.chunk.css",
-    "static/js/main.601be437.chunk.js"
+    "static/js/main.fb983d7d.chunk.js"
   ]
 }
