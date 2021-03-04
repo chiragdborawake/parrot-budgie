@@ -1,10 +1,9 @@
 import React from 'react';
-// import logo from '../budgie.jpg';
-import ParrotDetails from '../ParrotDetails';
+import ParrotPopularityCard from '../ParrotPopularityCard';
 function Parrot() {
     return (
         <div>
-            <ParrotDetails />
+            <ParrotPopularityCard />
         </div>
     );
 }
