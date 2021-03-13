@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import Parrot from '../Thumbnails/parrot.jpg';
+import Budgie from '../Thumbnails/budgie.jpg';
 import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles({
@@ -26,22 +26,21 @@ export default function ImgMediaCard() {
           component="img"
           alt="Contemplative Reptile"
           height="140"
-          image={Parrot}
+          image={Budgie}
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Parrots are popular birds, but it's not good for them.
+            When budgie lays the first egg, Hatching time, Growing budgie chicks.
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p" style={{ textAlign: 'justify' }} >
-            Parrots are the one of the most popular species among birds.
-            One of the main reason they are famous is that they mimic what you speak.
+            After meating budgie lay first egg with in 10 to 12 day's. After that she continuely lay eggs every next day  or alternet day.
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Link to="/parrot-popularity" style={{ textDecoration: 'none' }}>
-          <Button size="small" color="primary">
+        <Link to="/budgie-eggs" style={{ textDecoration: 'none' }}>
+          <Button size="small" color="primary" style={{ float: 'right' }}>
             Read More
         </Button>
         </Link>
