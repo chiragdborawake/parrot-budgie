@@ -5,9 +5,11 @@ import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
+import DehazeIcon from '@material-ui/icons/Dehaze';
 import Box from '@material-ui/core/Box';
 import Parrot from '../Parrot';
 import Budgie from '../Budgie';
+
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -62,9 +64,9 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function NavTabs() {
+    const tabIndex = isNaN(parseInt(window.location.href.slice(-1))) ? 0 : parseInt(window.location.href.slice(-1));
     const classes = useStyles();
-    const [value, setValue] = React.useState(0);
-
+    const [value, setValue] = React.useState(tabIndex);
     const handleChange = (event, newValue) => {
         setValue(newValue);
     };
